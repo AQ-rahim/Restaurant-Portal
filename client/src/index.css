@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.auth {
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.oh-btn {
+  background-color: #f8971d;
+  color: white;
+  width: 100px;
+}
+
+.oh-btn-sec {
+  background-color: white;
+  color: #f8971d;
+  border-color: #f8971d;
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .auth {
+    background: none;
+  }
+}
